@@ -25,14 +25,14 @@ if [[ -z "$TMUX" && -z "$EMACS" && -z "$VIM" ]] && ( \
 
   # Create a first 'prezto' session if tmux is starting.
   if ! tmux has-session 2> /dev/null; then
-    tmux \
+    tmux -2 \
       start-server \; \
       new-session -d -s "$tmux_session" \; \
       set-option -t "$tmux_session" destroy-unattached off &> /dev/null
   fi
 
   # Attach to the 'prezto' session or to the last session used.
-  exec tmux attach-session
+  exec tmux -2 attach-session
 fi
 
 #

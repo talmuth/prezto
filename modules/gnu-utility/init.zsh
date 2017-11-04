@@ -42,7 +42,7 @@ _gnu_utility_cmds=(
   'libtool' 'libtoolize'
 
   # Miscellaneous
-  'getopt' 'grep' 'indent' 'sed' 'tar' 'time' 'units' 'which'
+  'getopt' 'grep' 'indent' 'make' 'sed' 'tar' 'time' 'units' 'which'
 )
 
 # Wrap GNU utilities in functions.
@@ -58,4 +58,3 @@ for _gnu_utility_cmd in "${_gnu_utility_cmds[@]}"; do
 done
 
 unset _gnu_utility_{p,cmds,cmd,pcmd}
-

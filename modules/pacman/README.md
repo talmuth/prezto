@@ -10,14 +10,18 @@ Settings
 To enable a Pacman frontend, for example, [Yaourt][2], add the following line to
 *zpreztorc*:
 
-    zstyle ':prezto:module:pacman' frontend 'yaourt'
+```sh
+zstyle ':prezto:module:pacman' frontend 'yaourt'
+```
 
 If you have enabled color globally in *zpreztorc*, you may disable it for certain
 commands.
 
 To disable `yaourt` highlighting, add the following line to *zpreztorc*:
 
-    zstyle ':prezto:module:pacman:yaourt' color 'no'
+```sh
+zstyle ':prezto:module:pacman:yaourt' color 'no'
+```
 
 Aliases
 -------
@@ -63,4 +67,3 @@ Authors
 [1]: http://www.archlinux.org/pacman/
 [2]: http://archlinux.fr/yaourt-en
 [3]: https://github.com/sorin-ionescu/prezto/issues
-

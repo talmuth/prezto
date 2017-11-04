@@ -6,6 +6,8 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+# function ruby-info {
+
 local version
 local version_format
 local version_formatted
@@ -29,3 +31,4 @@ if [[ -n "$version" ]]; then
   ruby_info[version]="$version_formatted"
 fi
 
+# }

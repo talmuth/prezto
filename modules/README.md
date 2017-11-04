@@ -3,12 +3,19 @@ Modules
 
 Load modules in *zpreztorc*. The order matters.
 
-    zstyle ':prezto:load' pmodule 'environment' 'terminal'
+```sh
+zstyle ':prezto:load' pmodule 'environment' 'terminal'
+```
 
 Archive
 -------
 
 Provides functions to list and extract archives.
+
+Autosuggestions
+---------------
+
+Integrates zsh-autosuggestions into Prezto.
 
 Command-Not-Found
 -----------------
@@ -25,6 +32,11 @@ Directory
 ---------
 
 Sets directory options and defines directory aliases.
+
+DNF
+---
+
+Defines dnf aliases.
 
 Dpkg
 ----
@@ -92,7 +104,7 @@ Homebrew
 
 Defines Homebrew aliases.
 
-Macports
+MacPorts
 --------
 
 Defines MacPorts aliases and adds MacPorts directories to path variables.
@@ -102,10 +114,10 @@ Node.js
 
 Provides utility functions for Node.js and loads npm completion.
 
-Ocaml
+OCaml
 -----
 
-Initializes Ocaml package management.
+Initializes OCaml package management.
 
 OSX
 ---
@@ -192,4 +204,3 @@ Yum
 ---
 
 Defines yum aliases.
-
